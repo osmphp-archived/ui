@@ -2,9 +2,9 @@
     "name": "osmphp/ui",
     "autoload": {
         "psr-4": {
-            "OsmPhp\\Ui\\": "src/",
-            "OsmPhp\\Ui\\Tests\\": "tests/",
-            "OsmPhp\\Ui\\Samples\\": "samples/"
+            "Osm\\Ui\\": "src/",
+            "Osm\\Ui\\Tests\\": "tests/",
+            "Osm\\Ui\\Samples\\": "samples/"
         }
     },
     "require": {
