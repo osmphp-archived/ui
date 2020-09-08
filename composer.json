@@ -1,0 +1,28 @@
+{
+    "name": "osmphp/ui",
+    "autoload": {
+        "psr-4": {
+            "OsmPhp\\Ui\\": "src/",
+            "OsmPhp\\Ui\\Tests\\": "tests/",
+            "OsmPhp\\Ui\\Samples\\": "samples/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "osmphp/framework": "dev-master"
+    },
+    "extra": {
+        "osm": {
+            "component_pools": {
+                "src": {
+                    "module_path": "*/Module.php",
+                    "theme_path": "*/theme.php"
+                },
+                "samples": {
+                    "module_path": "*/Module.php",
+                    "testing": true
+                }
+            }
+        }
+    }
+}
